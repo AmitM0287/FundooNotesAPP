@@ -8,7 +8,10 @@ import { SideNavbarComponent } from '../side-navbar/side-navbar.component';
 	styleUrls: ['./notes-app.component.scss']
 })
 export class NotesAppComponent {
+	/* class variables */
+	isSideMenuEnabled: boolean = false;
+
 	openSideMenu() {
-		console.log("YESSS")
+		this.isSideMenuEnabled = !this.isSideMenuEnabled;
 	}
 }

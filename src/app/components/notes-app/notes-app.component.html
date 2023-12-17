@@ -13,6 +13,7 @@
             <input type="text" placeholder="Search">
         </div>
     </div>
-    <side-navbar></side-navbar>
-
+    <ng-container *ngIf="isSideMenuEnabled">
+        <side-navbar></side-navbar>
+    </ng-container>
 </div>

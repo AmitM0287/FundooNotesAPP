@@ -1,16 +1,14 @@
+@import '../../../styles.scss';
+
+
 :host {
     #notes-app {
-        /* variables */
-        $brdr-color: #5f636860;
-
-        /* custom classes */
-
         /* navbar */
         .nav-bar {
+            height: 8vh;
             display: flex;
             justify-content: start;
             border-bottom: 1px solid $brdr-color;
-            padding: 1vmin;
             .menu {
                 cursor: pointer;
             }

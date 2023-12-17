@@ -1,0 +1,28 @@
+@import '../../../styles.scss';
+
+
+:host {
+    #side-navbar {
+        width: 25vw;
+        height: 92vh;
+        background-color: lightgoldenrodyellow;
+
+        .nav-items {
+            padding-top: 1.5vmax;
+            ul {
+                padding: 0px;
+                margin: 0px;
+                li {
+                    list-style: none;
+                    height: 7vh;
+                    margin-bottom: 1.5vmax;
+                    background-color: aliceblue;
+                    border-radius: $brdr-radius;
+                    a {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

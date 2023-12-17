@@ -1,7 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+/* variables */
+$brdr-color: #5f636860;
+$brdr-radius: 7px;
+$font-default-color: #5f6368;
+
 body {
     margin: 0px;
     font-family: "Product Sans", Arial, sans-serif;
-    color: #5f6368;
-    opacity: 1;
+    color: $font-default-color;
 }
